@@ -12,3 +12,5 @@ build/
 /grpc-java-web-helloworld.ipr
 /gradlew.bat
 /gradle/
+/.gradle/
+/out/
