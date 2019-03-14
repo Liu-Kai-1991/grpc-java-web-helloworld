@@ -14,3 +14,5 @@ build/
 /gradle/
 /.gradle/
 /out/
+/client/node_modules/
+/client/generated/
