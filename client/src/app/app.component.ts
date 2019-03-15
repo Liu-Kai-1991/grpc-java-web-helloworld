@@ -31,7 +31,7 @@ export class AppComponent implements OnInit {
     });
     // server streaming call
     let streamRequest = new RepeatHelloRequest();
-    streamRequest.setName('Kai');
+    streamRequest.setName(this.name);
     streamRequest.setCount(5);
 
     let stream = this.client.sayRepeatHello(streamRequest, {});
